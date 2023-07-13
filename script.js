@@ -5,7 +5,7 @@ function checkMobile() {
         const img = document.createElement('img');
 
         img.id = 'mobile-img';
-        img.src = '/illustration-sign-up-mobile.svg';
+        img.src = 'illustration-sign-up-mobile.svg';
 
         if(document.getElementsByTagName('main')[0].children.length < 3) {
            document.getElementsByTagName('main')[0].prepend(img);
